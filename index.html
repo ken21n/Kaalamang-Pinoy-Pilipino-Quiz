@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Add the title at the top -->
+    <header>
+        <h1 class="title">Kaalamang Pinoy | Pilipino Quiz </h1>
+    </header>
+
+    <h1 class="starting-text">Subukan mo ang larong Pilipino at Matuto!</h1>
+    <div class="container">
+        <button id="startButton" class="start-button">Simulan</button>
+        <div id="difficultySelection" class="difficulty-selection hidden">
+            <h2>Pumili at Subukan ang sariling kaalaman</h2>
+            <button class="difficulty-button easy">Madali</button>
+            <button class="difficulty-button medium">katamtaman</button>
+            <button class="difficulty-button hard">Mahirap</button>
+        </div>
+        <div id="rules" class="rules hidden">
+            <h2>Mga Panuntunan</h2>
+            <p>1. Meron lamang limangpung segundo(15) sa pagsagot sa bawat tanong.</p>
+            <p>2. Hindi na mapapalitan ang sagot, once na nakapili na.</p>
+            <p>3. Hindi na makakapili ng sagot kapag naubos na ang oras.</p>
+            <p>4. Makakakuha lamang ng puntos base sa mga tamang sagot.</p>
+            <p>5. Mag libang at matuto habang naglalaro!</p>
+            <button id="continueButton" class="continue-button">Mag Patuloy</button>
+        </div>
+        <div id="questionnaire" class="questionnaire hidden">
+            <div class="question-number" id="questionNumber"></div>
+            <h2 id="question"></h2>
+            <div id="options" class="options"></div>
+            <div id="timer" class="timer"></div>
+            <button id="nextButton" class="next-button hidden">Mag Patuloy</button>
+            <button id="exitButton" class="exit-button">Exit</button> <!-- Added Exit Button -->
+        </div>
+    </div>
+
+    <!-- Add the footer at the bottom -->
+    <footer>
+        <p>© 2025 Kaalamang Pinoy | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
