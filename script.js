@@ -635,7 +635,8 @@ let questions = [
     "Padre Jacinto Zamora"
     ],
     difficulty: "medium"
-    },{
+    },
+    {
     numb: 27,
     question: "Sino ang binansagang 'utak ng rebolusyon'?",
     answer: "Apolinario Mabini",
